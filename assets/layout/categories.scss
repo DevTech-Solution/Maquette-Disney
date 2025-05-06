@@ -1,0 +1,53 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/typography' as *;
+@use '../abstracts/mixins' as *;
+@use '../abstracts/colors' as *;
+
+.categories {
+    margin-top: 57px;
+
+    .title-cat{
+        display: flex;
+        justify-content: center;
+
+        h4 {
+            color: $color-principal;
+            font-size: 25px;
+            font-family: $avenirbook;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .title-categorie {
+        ul {
+            padding-top: 53px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-family: $avenirbook;
+            font-size: 20px;
+            line-height: 30px;
+
+            li {
+                margin-left: 2rem;
+                list-style: none;
+
+                a {
+                    color: $color-principal;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                }
+            }
+
+            li:nth-child(1) {
+                border-bottom: 5px solid white;
+            }
+        }
+    }
+}
+
+
+
+

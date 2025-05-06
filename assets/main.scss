@@ -1,0 +1,20 @@
+@use'../assets/abstracts/colors' as *;
+@use'../assets/abstracts/mixins' as *;
+@use'../assets/abstracts/typography' as *;
+@use'../assets/abstracts/variables' as *;
+
+@use'../assets/base/global' as *;
+@use'../assets/base/reset' as *;
+@use'../assets/base/base-typography' as *;
+
+@use'../assets/components/buttons/icon' as *;
+@use'../assets/components/buttons/primary' as *;
+@use'../assets/components/buttons/secondary' as *;
+
+@use'../assets/components/cards/categories-cards' as *;
+@use'../assets/components/pages/404' as *;
+@use'../assets/components/pages/home' as *;
+@use'../assets/layout/footer' as *;
+@use'../assets/layout/header' as *;
+@use'../assets/layout/categories.scss' as *;
+@use'../assets/layout/subscription' as *;

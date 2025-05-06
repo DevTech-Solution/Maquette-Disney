@@ -1,0 +1,10 @@
+@mixin button-primary {
+    text-align: center;
+    border-radius: 4px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    height: 68px;
+    width: 307px;
+}

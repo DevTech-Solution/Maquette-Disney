@@ -1,0 +1,15 @@
+/** FONT AVENIR BLACK **/
+@font-face {
+    font-family:"avenirblack";
+    src: url("../fonts/avenir/Avenir-Black.ttf");
+}
+/** FONT AVENIR BOOK **/
+@font-face {
+    font-family:"avenirbook";
+    src: url("../fonts/avenir/Avenir-Book.ttf");
+}
+/** FONT AVENIR MEDIUM **/
+@font-face {
+    font-family:"avenirmedium";
+    src: url("../fonts/avenir/Avenir-Medium.ttf");
+}

@@ -1,0 +1,60 @@
+@use '../abstracts/variables' as *;
+@use '../abstracts/typography' as *;
+@use '../abstracts/mixins' as *;
+@use '../abstracts/colors' as *;
+
+
+footer{
+    .container  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .row-logo{
+
+            margin-bottom: 10px;
+        }
+
+        .nav-footer {
+            ul{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                list-style: none;
+
+                a{
+                    color: $color-description;
+                    text-decoration: none;
+                    font-size: 12px;
+                    font-family: $avenirbook;
+                    line-height: 22px;  
+                }
+            }
+            ul:first-child{
+                margin-bottom: 16px;
+            }
+            ul:last-child{
+                margin-bottom: 26px;
+            }
+        }
+        .text-box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            p{
+            color: $color-description;
+            font-size: 12px;
+            font-family: $avenirbook;
+            line-height: 22px;
+            }
+
+            p:first-child{
+                margin-bottom: 26px;
+            }
+        }
+    }
+}

@@ -1,0 +1,538 @@
+/** COLORS **/
+/** BUTTONS HEADER**/
+/** TXT PRINCIPAL **/
+/** TXT DESCRIPTION **/
+/** ------------------------------- **/
+/** ------------------------------- **/
+/** FONTS **/
+/** ------------------------------- **/
+/** RESET VALEUR **/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/** BUTTON PRIMARY HEADER **/
+/** BUTTON **/
+.banner .btn-secondary {
+  background-color: #0063E5;
+  text-align: center;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+  height: 68px;
+  width: 307px;
+}
+.banner .btn-secondary a {
+  color: #F9F9F9;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/** ----------------------- **/
+@media (max-width: 400px) {
+  .banner .btn-secondary {
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner .btn-secondary a {
+    position: relative;
+    visibility: hidden;
+  }
+  .banner .btn-secondary a::after {
+    content: "view all options";
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+}
+/** CATEGORIES CARDS MOVIES **/
+.cards-categorie {
+  padding-top: 24px;
+}
+.cards-categorie .row-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards-categorie .row-cards .item {
+  padding: 0.7rem;
+}
+
+/** SUBSCRIPTION CARDS **/
+.card-subscription .item {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.card-subscription .item:nth-child(1) {
+  margin-right: 5rem;
+  border: solid 1px white;
+  height: 523px;
+  width: 380px;
+}
+.card-subscription .item:nth-child(1) .logos-subscription {
+  margin-left: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+}
+.card-subscription .item:nth-child(1) h3 {
+  color: #F9F9F9;
+  font-size: 25px;
+  margin-left: 2rem;
+}
+.card-subscription .item:nth-child(1) ul {
+  width: 290px;
+  height: 88px;
+  margin-top: 1rem;
+  list-style: none;
+  margin-left: 2rem;
+  color: #C0C0C0;
+}
+.card-subscription .item:nth-child(1) p:nth-child(3) {
+  color: #F9F9F9;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+.card-subscription .item:nth-child(1) p:nth-child(5) {
+  color: #F9F9F9;
+  margin-left: 3rem;
+  line-height: 38px;
+  margin-top: 7rem;
+  color: #C0C0C0;
+  font-size: 18px;
+  font-family: "avenirbook";
+}
+.card-subscription .item:nth-child(1) p:nth-child(5) .price {
+  color: #F9F9F9;
+  font-size: 25px;
+  font-family: "avenirblack";
+}
+.card-subscription .item:nth-child(1) .btn-secondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+.card-subscription .item:nth-child(1) .btn-secondary a:last-child {
+  color: #F9F9F9;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 17px;
+  font-family: "avenirmedium";
+  background-color: #0063E5;
+  width: 290px;
+  height: 60px;
+  padding-top: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.card-subscription .item:nth-child(2) {
+  margin-right: 5rem;
+  border: solid 1px white;
+  height: 523px;
+  width: 380px;
+}
+.card-subscription .item:nth-child(2) .logos-subscription {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+.card-subscription .item:nth-child(2) h3 {
+  color: #F9F9F9;
+  font-size: 25px;
+  margin-left: 2rem;
+}
+.card-subscription .item:nth-child(2) ul {
+  width: 290px;
+  height: 88px;
+  padding-top: 1rem;
+  list-style: none;
+  margin-left: 2rem;
+  color: #C0C0C0;
+}
+.card-subscription .item:nth-child(2) p:nth-child(3) {
+  color: #F9F9F9;
+  margin-left: 2rem;
+  padding-top: 1.5rem;
+}
+.card-subscription .item:nth-child(2) p:nth-child(5) {
+  color: #F9F9F9;
+  margin-left: 3rem;
+  font-size: 25px;
+  font-family: "avenirblack";
+  line-height: 38px;
+  margin-top: 7rem;
+  color: #C0C0C0;
+  font-size: 18px;
+  font-family: "avenirbook";
+}
+.card-subscription .item:nth-child(2) p:nth-child(5) .price {
+  color: #F9F9F9;
+  font-size: 25px;
+  font-family: "avenirblack";
+}
+.card-subscription .item:nth-child(2) .btn-secondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+.card-subscription .item:nth-child(2) .btn-secondary a:last-child {
+  color: #F9F9F9;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 17px;
+  font-family: "avenirmedium";
+  background-color: #0063E5;
+  width: 290px;
+  height: 60px;
+  padding-top: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.card-subscription .item:nth-child(3) {
+  margin-right: 5rem;
+  border: solid 1px white;
+  height: 523px;
+  width: 380px;
+}
+.card-subscription .item:nth-child(3) .logos-subscription {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 3rem;
+}
+.card-subscription .item:nth-child(3) h3 {
+  color: #F9F9F9;
+  font-size: 25px;
+  padding-left: 2rem;
+}
+.card-subscription .item:nth-child(3) ul {
+  width: 290px;
+  height: 88px;
+  padding-top: 1rem;
+  list-style: none;
+  padding-left: 2rem;
+  color: #C0C0C0;
+}
+.card-subscription .item:nth-child(3) p:nth-child(3) {
+  color: #F9F9F9;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.card-subscription .item:nth-child(3) p:nth-child(5) {
+  color: #F9F9F9;
+  margin-left: 3rem;
+  font-size: 25px;
+  font-family: "avenirblack";
+  line-height: 38px;
+  margin-top: 7rem;
+  color: #C0C0C0;
+  font-size: 18px;
+  font-family: "avenirbook";
+}
+.card-subscription .item:nth-child(3) p:nth-child(5) .price {
+  color: #F9F9F9;
+  font-size: 25px;
+  font-family: "avenirblack";
+}
+.card-subscription .item:nth-child(3) .btn-secondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+.card-subscription .item:nth-child(3) .btn-secondary a:last-child {
+  color: #F9F9F9;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 17px;
+  font-family: "avenirmedium";
+  background-color: #0063E5;
+  width: 290px;
+  height: 60px;
+  padding-top: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/** ----------------------------------------- **/
+/** MEDIA QUERIES **/
+@media (max-width: 400px) {
+  .cards-categorie .item:nth-child(1) {
+    display: none;
+  }
+  .cards-categorie .item:nth-child(2) {
+    display: none;
+  }
+}
+footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .container .row-logo {
+  margin-bottom: 10px;
+}
+footer .container .nav-footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+}
+footer .container .nav-footer ul a {
+  color: #C0C0C0;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "avenirbook";
+  line-height: 22px;
+}
+footer .container .nav-footer ul:first-child {
+  margin-bottom: 16px;
+}
+footer .container .nav-footer ul:last-child {
+  margin-bottom: 26px;
+}
+footer .container .text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer .container .text-box p {
+  color: #C0C0C0;
+  font-size: 12px;
+  font-family: "avenirbook";
+  line-height: 22px;
+}
+footer .container .text-box p:first-child {
+  margin-bottom: 26px;
+}
+
+body {
+  background-color: #041225;
+}
+body header {
+  width: 100%;
+  background-image: url("../../css/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body header .banner {
+  height: 692px;
+  width: 100%;
+}
+body header .banner .login {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+body header .banner .login a {
+  padding: 15px;
+  border: solid 2px rgba(192, 192, 192, 0.6235294118);
+  border-radius: 4px;
+  font-size: 18px;
+  background-color: #000000;
+  color: #F9F9F9;
+  line-height: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "avenirbook";
+}
+body header .banner .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body header .banner .container img {
+  position: absolute;
+}
+body header .banner .container h1 {
+  font-family: "avenirblack";
+  color: #F9F9F9;
+  z-index: 2;
+  margin-top: 138px;
+  margin-bottom: 2rem;
+  font-size: 35px;
+}
+body header .banner .container .row-cards {
+  display: flex;
+}
+body header .banner .container .row-cards .card {
+  z-index: 2;
+}
+body header .banner .container .row-cards .card:last-child {
+  margin-left: 24px;
+}
+
+/** ROW **/
+.banner .row {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0rem;
+  color: #C0C0C0;
+  z-index: 2;
+}
+.banner .row .text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner .row .text-box:first-child {
+  padding-top: 29px;
+}
+.banner .row .text-box:last-child {
+  margin-top: 5rem;
+  z-index: 2;
+  color: #F9F9F9;
+}
+.banner .row .img-gallery {
+  margin-top: 2rem;
+}
+
+/** --------------------------------
+            MEDIA QUERIES
+-------------------------------- **/
+/** PARTIE HEADER **/
+@media (max-width: 400px) {
+  header {
+    margin-bottom: 7rem;
+    border: solid 1px white;
+  }
+  header .banner .card:nth-child(1) {
+    display: none;
+  }
+  header .banner .row .text-box,
+  header .banner .row .img-gallery {
+    display: none;
+  }
+  .banner .container {
+    margin-top: 4rem;
+    height: 15rem;
+  }
+}
+.categories {
+  margin-top: 57px;
+}
+.categories .title-cat {
+  display: flex;
+  justify-content: center;
+}
+.categories .title-cat h4 {
+  color: #F9F9F9;
+  font-size: 25px;
+  font-family: "avenirbook";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.categories .title-categorie ul {
+  padding-top: 53px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "avenirbook";
+  font-size: 20px;
+  line-height: 30px;
+}
+.categories .title-categorie ul li {
+  margin-left: 2rem;
+  list-style: none;
+}
+.categories .title-categorie ul li a {
+  color: #F9F9F9;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.categories .title-categorie ul li:nth-child(1) {
+  border-bottom: 5px solid white;
+}
+
+.subscription {
+  margin-top: 194px;
+}
+.subscription .container {
+  height: 947px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.subscription .container .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subscription .container .row .title {
+  font-family: "avenirblack";
+  font-size: 43px;
+  line-height: 54px;
+  color: #F9F9F9;
+  margin-bottom: 20px;
+}
+.subscription .container .row .text-box {
+  font-family: "avenirbook";
+  font-size: 20px;
+  line-height: 30px;
+  color: #C0C0C0;
+  margin-bottom: 33px;
+}
+.subscription .container .row .btn-primary {
+  margin-bottom: 2rem;
+  border: 2px solid #F9F9F9;
+  background-color: #2B2D37;
+  padding: 10px;
+  border-radius: 21px;
+  width: 235px;
+  display: flex;
+  justify-content: center;
+}
+.subscription .container .row .btn-primary a {
+  color: #F9F9F9;
+  text-decoration: none;
+  font-family: "avenirbook";
+  font-size: 16px;
+  line-height: 30px;
+}
+.subscription .container .row .btn-primary a:first-child {
+  background-color: #0063E5;
+  margin-right: 1rem;
+  border: solid 1px white;
+  border-radius: 19px;
+  display: flex;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  height: 30px;
+}
+.subscription .container .text-box-secondary {
+  color: #C0C0C0;
+  font-size: 12px;
+  font-family: "avenirbook";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.card-subscription {
+  display: flex;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=style.css.map */

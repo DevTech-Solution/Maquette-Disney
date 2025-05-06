@@ -1,0 +1,47 @@
+@use '../../abstracts/variables' as *;
+@use '../../abstracts/typography' as *;
+@use '../../abstracts/mixins' as *;
+@use '../../abstracts/colors' as *;
+
+/** BUTTON PRIMARY HEADER **/
+/** BUTTON **/
+.banner{
+    
+    .btn-secondary {
+    background-color: $background-button;
+    @include button-primary;
+
+        a {
+            color: $color-principal;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+}
+/** ----------------------- **/
+@media (max-width: 400px) {
+    .banner{
+
+        .btn-secondary {
+
+            height: 5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .btn-secondary a {
+            position: relative;
+            visibility: hidden;
+        }
+        .btn-secondary a::after {
+            content: "view all options";
+            visibility: visible;
+            position: absolute;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+    }
+}
