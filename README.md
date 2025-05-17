@@ -10,6 +10,10 @@
 
 ### ✨ [Demo](https://schatel-dev.github.io/Maquette-Disney/)
 
+<p align="center">
+  <img src="./home_page.png" alt="Page Home Page" width="800"/>
+</p>
+
 ## Author
 
 👤 **Sebastien C.**  
