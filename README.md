@@ -22,7 +22,7 @@ It leverages **HTML5** and **SCSS** to provide a visually appealing and responsi
 
 ## 🚀 Démo en ligne | Live Demo
 
-👉 [Cliquez ici pour voir la démo](https://schatel-dev.github.io/Maquette-Disney/)
+👉 [Cliquez ici pour voir la démo](https://devtech-solution.github.io/Maquette-Disney/)
 
 <p align="center">
   <img src="./home_page.png" alt="Capture de la page d'accueil" width="800"/>
@@ -43,8 +43,7 @@ It leverages **HTML5** and **SCSS** to provide a visually appealing and responsi
 ## 👨‍💻 Auteur | Author
 
 **Sebastien C.**  
-🎓 Promo 2025 (Webecom)
-📫 [Portfolio GitHub](https://github.com/schatel-dev)
+📫 [Portfolio GitHub](https://github.com/DevTech-Solution)
 
 ---
 
